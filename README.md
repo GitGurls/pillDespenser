@@ -62,19 +62,6 @@ development. It proxies all `/api/...` calls to the backend on port 5000.
 - Check Dashboard, Device, Reports, and the new **Notifications** and
   **Profile** pages
 
-## New in this version
-- **Frontend rebuilt in React + Vite** (was vanilla JS) — component-based,
-  React Router for navigation, React state instead of manual DOM updates
-- **Edit** buttons for Medicines and Schedule (previously only Add/Delete)
-- **Search** box on the Medicines page
-- **Notifications page** — derived automatically from existing data: device
-  offline, low medicine stock (≤5), and today's dose reminders. No new
-  Firestore collection needed.
-- **Profile page** — shows account email + join date, logout button, and
-  notification-preference toggles (currently a UI placeholder — not yet
-  wired to filter the Notifications page or persisted; ask if you want that
-  built out)
-
 ## Production build (optional, for later)
 ```bash
 cd frontend

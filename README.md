@@ -75,5 +75,3 @@ npm start                  # now serves the built frontend + API together
 - The backend logic (routes, controllers, Firestore collections) is
   unchanged from the previous vanilla-JS version — only the frontend moved
   to React.
-- ESP32 firmware integration is still separate hardware/firmware work, not
-  covered here.

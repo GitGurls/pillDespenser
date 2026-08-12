@@ -1,12 +1,4 @@
-# Smart Medicine Pill Dispenser — Web App (React + Vite)
 
-Web dashboard for the Smart Pill Dispenser IoT project. Talks to an ESP32 hardware
-dispenser through Firebase Firestore.
-
-## Stack
-- **Frontend**: React + Vite, React Router, Firebase client SDK, Chart.js
-- **Backend**: Node.js + Express (verifies Firebase tokens, exposes REST API)
-- **Database + Auth**: Firebase (Firestore + Authentication)
 
 ## Folder structure
 ```

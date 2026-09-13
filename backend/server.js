@@ -12,7 +12,12 @@ const reportRoutes = require('./routes/reportRoutes');
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "https://pill-despenser.vercel.app",
+  ],
+}));
 app.use(express.json());
 app.use(morgan('dev'));
 

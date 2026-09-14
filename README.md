@@ -62,7 +62,4 @@ cd ../backend
 npm start                  # now serves the built frontend + API together
 ```
 
-## Notes
-- `frontend/.env` and `backend/.env` are both git-ignored — don't commit them.
-- The backend logic (routes, controllers, Firestore collections) is
- 
+

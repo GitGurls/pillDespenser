@@ -54,9 +54,7 @@ development. It proxies all `/api/...` calls to the backend on port 5000.
 - Check Dashboard, Device, Reports, and the new **Notifications** and
   **Profile** pages
 
-## Production build (optional, for later)
-```bash
-cd frontend
+
 
 
 

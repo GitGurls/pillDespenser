@@ -57,8 +57,6 @@ development. It proxies all `/api/...` calls to the backend on port 5000.
 ## Production build (optional, for later)
 ```bash
 cd frontend
-npm run build              # outputs frontend/dist
-cd ../backend
 
 
 

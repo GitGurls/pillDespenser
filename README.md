@@ -59,7 +59,6 @@ development. It proxies all `/api/...` calls to the backend on port 5000.
 cd frontend
 npm run build              # outputs frontend/dist
 cd ../backend
-npm start                  # now serves the built frontend + API together
-```
+
 
 

@@ -51,8 +51,7 @@ development. It proxies all `/api/...` calls to the backend on port 5000.
 
 ### 3. Try it
 - Register a new account → add a medicine → create a schedule
-- Check Dashboard, Device, Reports, and the new **Notifications** and
-  **Profile** pages
+
 
 
 

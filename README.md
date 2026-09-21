@@ -1,9 +1,7 @@
 
 
 
-#
-npm run dev                # runs on http://localhost:5173
-```
+
 
 Open **http://localhost:5173** — this is what you test against during
 development. It proxies all `/api/...` calls to the backend on port 5000.

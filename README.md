@@ -1,21 +1,5 @@
 
 
-in)
-│   └── vite.config.js           dev proxy: /api → localhost:5000
-│
-├── backend/                    Express API (unchanged logic from before)
-│   ├── server.js
-│   ├── config/firebase.js       Firebase Admin init
-│   ├── middleware/authMiddleware.js
-│   ├── routes/ + controllers/
-│   └── .env.example             copy to .env, fill in Admin SDK credentials
-│
-└── README.md
-```
-
-## Setup
-
-### 1. Backend
 ```bash
 cd backend
 cp .env.example .env      # then fill in your Firebase Admin SDK credentials

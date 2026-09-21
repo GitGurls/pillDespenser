@@ -1,19 +1,6 @@
 
 
-## Folder structure
-```
-smart-pill-dispenser/
-├── frontend/                  React + Vite app
-│   ├── src/
-│   │   ├── pages/              Login, Register, Dashboard, Medicines,
-│   │   │                       Schedule, Device, Reports, Notifications, Profile
-│   │   ├── components/         Sidebar, ProtectedRoute
-│   │   ├── context/             AuthContext (Firebase auth state)
-│   │   ├── firebase.js          Firebase client init (reads .env)
-│   │   ├── api.js                fetch wrapper, attaches auth token
-│   │   ├── App.jsx                routes
-│   │   └── styles.css
-│   ├── .env                     Firebase web config (already filled in)
+in)
 │   └── vite.config.js           dev proxy: /api → localhost:5000
 │
 ├── backend/                    Express API (unchanged logic from before)

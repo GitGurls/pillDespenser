@@ -1,11 +1,5 @@
 
 
-```bash
-cd backend
-cp .env.example .env      # then fill in your Firebase Admin SDK credentials
-npm install
-npm run dev                # runs on http://localhost:5000
-```
 
 ### 2. Frontend
 The `frontend/.env` file already has your Firebase web config filled in — no

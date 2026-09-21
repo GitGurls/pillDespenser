@@ -1,13 +1,7 @@
 
 
 
-### 2. Frontend
-The `frontend/.env` file already has your Firebase web config filled in — no
-changes needed unless you create a different Firebase project.
-
-```bash
-cd frontend
-npm install
+#
 npm run dev                # runs on http://localhost:5173
 ```
 
